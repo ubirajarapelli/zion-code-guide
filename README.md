@@ -24,7 +24,7 @@ Mais informações acesse o site do [EditorConfig](http://editorconfig.org/)
 #### DOCTYPE
 Utilizamos a instrução para a versão em HTML5.
 
-```
+```html
 <!DOCTYPE html>
 <html>
 	<head></head>
@@ -35,7 +35,7 @@ Utilizamos a instrução para a versão em HTML5.
 #### Language
 Não esqueça de definir o idioma, comumente utilizamos `lang="pt-br"`.
 
-```
+```html
 <html lang="pt-br">
 ```
 > Para encontrar a listagem de códigos das linguagens, acesse a [documentação oficial do W3C](http://www.w3.org/International/questions/qa-choosing-language-tags).
@@ -43,7 +43,7 @@ Não esqueça de definir o idioma, comumente utilizamos `lang="pt-br"`.
 #### Encoding
 Utilizamos o UTF-8 como padrão da tabela Unicode de caracteres.
 
-```
+```html
 <head>
   <meta charset="UTF-8">
 </head>
@@ -52,9 +52,9 @@ Utilizamos o UTF-8 como padrão da tabela Unicode de caracteres.
 #### Sintaxe do Markup
 - **Identação:** 2 espaços (Soft-tabs), relaxa, o `.editorconfig` está aí pra fazer isso por nós.
 - **Atributos:** Sempre utlize aspas duplas `""`, nunca utilize aspas simples.
-- **Elementos viúvos:** Não inclua barra invertida em elemntos _self-closed_ `<hr>`, `<br>`.
+- **Elementos viúvos:** Não inclua barra invertida em elementos _self-closed_ `<hr>`, `<br>`.
 
-```
+```html
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
@@ -74,7 +74,7 @@ Inserimos a tag `<link>` dentro `<head></head>` do documento.
 
  - O atributo `type` não precisa ser especificado, mas não esqueça do `rel="stylesheet"`.
 
-```
+```html
 <link rel="stylesheet" href="stylesheet.css">
 ```
 
@@ -84,7 +84,7 @@ Inserimos a tag `<script>` antes do fechamento da tag `</body>`.
 
 - O atributo `type` não precisa ser especificado.
 
-```
+```html
 	<script src="script.js"></script>
 </body>
 </html>
