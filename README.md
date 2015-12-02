@@ -52,8 +52,7 @@ Utilizamos o UTF-8 como padrão da tabela Unicode de caracteres.
 #### Sintaxe do Markup
 - **Identação:** 2 espaços (Soft-tabs), relaxa, o `.editorconfig` está aí pra fazer isso por nós.
 - **Atributos:** Sempre utlize aspas duplas `""`, nunca utilize aspas simples.
-- **Elementos viúvos:** Não inclua barra invertida <hr>, <br>.
-
+- **Elementos viúvos:** Não inclua barra invertida em elemntos _self-closed_ `<hr>`, `<br>`.
 
 ```
 <!DOCTYPE html>
@@ -65,7 +64,7 @@ Utilizamos o UTF-8 como padrão da tabela Unicode de caracteres.
   <body>
     <h1 class="hello-world">Hello, world!</h1>
     <img src="images/company-logo.png" alt="Company">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed enim sed velit ultricies interdum. Suspendisse eget magna lorem. In congue ipsum quis egestas commodo. Nulla nisl ligula, iaculis a dapibus eget, porttitor eu diam.<br> Cras non nisl enim. Vestibulum eu libero commodo, mollis dolor luctus, elementum libero. </p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Praesent sed enim sed velit ultricies interdum. <br>Suspendisse eget magna lorem. In congue ipsum quis egestas commodo. Nulla nisl ligula, iaculis a dapibus eget, porttitor eu diam.<br> Cras non nisl enim. Vestibulum eu libero commodo, mollis dolor luctus, elementum libero. </p>
   </body>
 </html>
 ```
